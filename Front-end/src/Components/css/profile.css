@@ -1,0 +1,78 @@
+.profile-page-outer{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    overflow-x: scroll;
+}
+.profile-main-page{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 96%;
+    margin: auto;
+}
+.personal-profile-data{
+    height: 50vh;
+    border-bottom: 4px solid #d09697;
+    width: 96%;
+    margin: auto;
+}
+.personal-profile-left{
+    width: 30%;
+    /* background-color: rgb(209, 209, 209); */
+    height: 45vh;
+    padding-top: 5vh;
+    display: inline-block;
+    vertical-align: top;
+}
+.personal-profile-right{
+    display: inline-block;
+    width: 70%;
+    height: 50vh;
+    /* background-color: rgb(255, 255, 255); */
+    vertical-align: top;
+    
+}
+.profile-image{
+    height: 40vh;
+    width: 40vh;
+    margin-left: 10vh;
+    border-radius: 50%;
+    border: 3px solid #d09697;
+}
+.profile-username{
+    font-size: 21pt;
+    font-family: "Nunito",sans-serif;
+    font-weight: bolder;
+    display: block;
+    margin-left: 2vh;
+    margin-top: 6vh;
+}
+.profile-place{
+    display: block;
+    margin-left: 2vh;
+    font-size: 18pt;
+    margin-top: 2vh;
+}
+.profile-bio{
+    display: block;
+    margin-left: 2vh;
+    text-align: justify;
+    margin-right: 17vh;
+    font-size: 15pt;
+}
+.profile-side-label{
+    font-weight: bold;
+    font-family: "Nunito",sans-serif;
+    font-size: 20pt;
+    color: rgb(57, 57, 57);
+    margin-top: 4vh;
+    /* background-color: red; */
+}
+.profile-favourite-books{
+    overflow-y: hidden;
+    width: 100%;
+    overflow-x: auto;
+    display: inline-block;
+    white-space:nowrap; 
+    border-bottom: 4px solid #d09697;
+}

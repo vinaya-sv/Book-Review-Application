@@ -1,0 +1,22 @@
+.wishlist-container{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.wishlist-inner-container{
+    height: 80vh;
+    width: 100%;
+}
+.wishlist-label{
+    font-size: 30pt;
+    margin-left: 4%;
+    font-family: 'Nunito',sans-serif;
+}
+/* .wishlist-booklist{
+    height: 60vh;
+} */
+.book-lists{
+    /* background-color: red; */
+    height: 80vh;
+    overflow-y: scroll;
+}

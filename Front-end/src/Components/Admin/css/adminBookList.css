@@ -1,0 +1,82 @@
+.book-list-wrapper{
+    background-color: rgb(238, 238, 238);
+    height: 42vh;
+    width: 90vh;
+    margin: 3vh;
+    margin-top: 2vh;
+    border-radius: 20px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.book-list-wrapper:hover{
+    border: 4px solid rgb(167, 167, 167);
+}
+
+.book-list-left{
+    width: 70%;
+    height: 36vh;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    padding: 2vh;
+    box-sizing: border-box;
+}
+
+.book-list-right{
+    width: 20%;
+    height: 40vh;
+    display: inline-block;
+    float: right;
+}
+
+.book-list-image{
+    height: 36vh;
+    margin-right: 13%;
+    margin-top: 2vh;
+    float: right;
+}
+.book-list-bookId{
+    display: block;
+}
+.book-list-bookname{
+    font-size: 17pt;
+    display: inline-block;
+    margin-top: 1vh;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+.book-list-author{
+    font-size: 13pt;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    text-align: justify;
+}
+
+.book-list-description{
+    margin-top: 2vh;
+    margin: 4vh;
+}
+.book-list-editors{
+    float: right;
+    height: 5vh;
+    width: auto;
+    display: flex;
+}
+.book-list-edit, .book-list-delete{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    margin-right: 2vh;
+    justify-content: center;
+    align-items: center;
+    
+}

@@ -1,0 +1,77 @@
+
+.menubar{
+    /* background-color: #555555; */
+    height: 10vh;
+    /* overflow-y: scroll; */
+    width: 100%;
+    /* margin-bottom: 1.2vh; */
+  }
+  .genres{
+      /* background-color: greenyellow; */
+      height: 3vh;
+      display: inline-block;
+      width: 98%;
+      margin-left: 2.6%;
+      margin-right: 2.6%;
+    /* margin-top: 1.2vh; */
+    cursor: pointer;
+    
+  }
+.genre-filter{
+    background-color:#dbb5b5;
+    border-radius: 20px;
+    width: auto;
+    display: inline-block;
+    margin-right: 2vh;
+    margin-top: 1vh;
+    /* padding: 1vh; */
+  }
+  .genre-filter:hover{
+  background-color:#c79d9d;
+}
+.genre-filter-text{
+    color: #6f5353;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    /* margin: 2vh; */
+  }
+  .sort-by-field{
+    width: 98%;
+    height: 3vh;
+    /* background-color: #ad797a; */
+    display: inline-block;
+    left:62.3%;
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+    /* background-color: red; */
+    margin-top: 1vh;
+    cursor: pointer;
+  }
+  .sortby-filter{
+    background-color:#c4c4c4;
+    border-radius: 20px;
+    width: auto;
+    display: inline-block;
+    margin-top: 1vh;
+    margin-right: 2vh;
+    /* padding: 1vh; */
+  }
+.sortby-filter:hover{
+  background-color:#9a9999;  
+}
+  .sortby-filter-text{
+    color: #3c3c3c;
+  font-size: 10pt;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* margin: 2vh; */
+  }
+.filter-and-sort-text{
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  margin-right: 8px;
+}

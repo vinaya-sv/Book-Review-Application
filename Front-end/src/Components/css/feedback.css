@@ -1,0 +1,37 @@
+.feedback-outer{
+    background-color: #f8cacb;
+    height: 100vh;
+    width: 100%;
+}
+.provide-feedback-text{
+    font-size: 15pt;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 15vh;
+}
+.feedback-textarea{
+    width: 40%;
+    height: 40vh;
+    margin-left: 30%;
+    resize: none;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding:1%;
+}
+
+.add-feed-back{
+    background-color: #d09697;
+    height: 5vh;
+    width: 10%;
+    margin-left: 65%;
+    border: 4px solid rgba(208, 150, 151, 0);
+    border-radius: 20px;
+    margin-top: 5vh;
+
+}
+.add-feed-back:hover{
+    border: 4px solid #d09697;
+}

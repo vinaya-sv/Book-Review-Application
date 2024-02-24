@@ -1,0 +1,131 @@
+.navbar{
+    color: rgb(235, 146, 30);
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    color: rgb(0, 0, 0);
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 1vh;
+    
+    background: linear-gradient(300deg,#867ba9,#ff32d5,#fe1216,#a251e1,#B3D4A2);
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient-animation 12s ease infinite;
+    background-size: 240% 240%;
+    margin-right: 10%;
+
+}
+
+ 
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.username{
+    color:rgb(0, 0, 0);
+    font-size: 14pt;
+    margin-left: 4%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile-icon{
+    color: rgb(30, 30, 30);
+    margin-top: 4%;
+    cursor: pointer;
+    margin-left: 2vh;
+}
+/* .logofield{
+    background-color: red;
+    width:30%;
+    height: 10vh;
+    display:inline-block;
+    float: right;
+}
+.usernamefield{
+    background-color: green;
+    width: 20%;
+    height: 10vh;
+    font-size: 15pt;
+    display:inline-block;
+    padding-top: 0.5%;
+    float: left;
+    margin-left: 1%;
+}
+.profilefield{
+    width:4%;
+    height: 10vh;
+    display: inline-block;
+    float: left;
+} */
+
+.profilefield{
+    width: auto;
+    display: inline-block;
+
+}
+.usernamefield{
+    /* background-color: blue; */
+    padding-top: 6vh;
+    height: 10vh;
+    width: 22%;
+    display:inline-block;
+    margin-left: 1vh;
+}
+.logofield{
+    justify-content: flex-end;
+    float: right;
+    text-align: right;
+    /* background-color: green; */
+    height: 10vh;
+    width: 50%;
+    display:flex;
+}
+.searchfield{
+    /* background-color: red; */
+    display:flex;
+    width: 40%;
+    background-color: white;
+    height: 5vh;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    margin-left: 6%;
+    border: 1px solid rgb(189, 189, 189);
+}
+.search-bar{
+    width: 85%;
+    height: 3vh;
+    outline: none;
+    margin-top: 0.7vh;
+    border: 1px solid rgba(0, 0, 0, 0);
+    letter-spacing: 0.1vh;
+    color:rgb(80, 80, 80);
+}
+.search-icon{
+    width: 10%;
+    /* background-color: white; */
+    color: rgb(189, 189, 189);
+    margin-top: 1vh;
+    margin-left: 0.5vh;
+
+}
