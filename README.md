@@ -24,7 +24,7 @@ Users can read reviews given by other users on any specific book and also commen
 __Personal profile__\
 Personal profile can be maintained to showcase their interest towards books, based on which other users can follow his/her interests based on his/her wishlist or reviews.
 
-__Wishlist__
+__Wishlist__\
 Wishlist is included in your personal profile, to store books that you wish you would read one day. 
 ## Screenshots
 Sign in page:
